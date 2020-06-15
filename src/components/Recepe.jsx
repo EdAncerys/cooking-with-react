@@ -1,10 +1,11 @@
 import React from "react";
 
-export default function Recepe() {
+export default function Recepe(props) {
+  const { name, cookTime, servings, instructions } = props;
   return (
     <div>
       <div>
-        <h3>Plain Chicken</h3>
+        <h3>{name}</h3>
         <div>
           <button>Edit</button>
           <button>Delete</button>
@@ -12,19 +13,15 @@ export default function Recepe() {
       </div>
       <div>
         <span>Cook Time</span>
-        <span>1:45</span>
+        <span>{cookTime}</span>
       </div>
       <div>
-        <span>Servings</span>
+        <span>{servings}</span>
         <span>3</span>
       </div>
       <div>
         <span>Instructions</span>
-        <div>
-          <p>Put salt on chicken</p>
-          <p>Put chicken in oven</p>
-          <p>Eat chicken</p>
-        </div>
+        <div>{instructions}</div>
       </div>
     </div>
   );
