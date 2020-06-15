@@ -1,7 +1,8 @@
 import React from "react";
+import RecepeList from "./components/RecepeList";
 
 function App() {
-  return "Hello World";
+  return <RecepeList />;
 }
 
 export default App;
