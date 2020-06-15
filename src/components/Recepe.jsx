@@ -1,7 +1,9 @@
 import React from "react";
+import IngredientList from "./IngredientList";
 
 export default function Recepe(props) {
-  const { name, cookTime, servings, instructions } = props;
+  const { name, cookTime, servings, instructions, ingredients } = props;
+  console.log(props);
   return (
     <div>
       <div>
@@ -22,6 +24,12 @@ export default function Recepe(props) {
       <div>
         <span>Instructions</span>
         <div>{instructions}</div>
+      </div>
+      <div>
+        <span>Ingredients</span>
+        <div>
+          <IngredientList ingredients={ingredients} />
+        </div>
       </div>
     </div>
   );
