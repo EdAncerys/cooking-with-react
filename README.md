@@ -1,4 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Recipe Notebook With React
+
+[Project Description](#project-description) | [Tech Stack](#tech-stack) | [Installation](#installation) | [Development Process](#development-process) | [User Stories](#user-stories) | [Further development](#further-development)
+
+## Project Description
+
+Created one page app with main functionality as a recipe notebook that allows user to add any recipe with appropriate ingredient list via UI. Recipe notebook functionality been done with React only.
+
+## Tech Stack:
+
+- [React](https://create-react-app.dev/docs/getting-started/) Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
+
+## Installation
+
+- Clone this repository
+  `$ git clone https://github.com/EdAncerys/cooking-with-react`
+- Navigate to local repository
+  `$ cd cooking-with-react`
+- Install npm if you don't already have it
+  `https://www.npmjs.com/get-npm`
+- Install all dependencies
+  `$ npm install`
+- Start the server
+  `$ npm start`
+- Navigate to [http://localhost:3000](http://localhost:3000) in your browser
+
+## Development Process
+
+During development process I used an agile development methodologies of using git, commit messages, git branches, merges and regular code refactor.
+
+## User UI view
+
+<p align="center">
+    <img width="600" src="public/images/cooking-with-react-01.png">
+</p>
+
+## User Stories
+
+```
+As a user,
+So I can save my favorite recipe,
+I am able to add new recipe.
+```
+
+```
+As a user,
+So I can customize my recipes,
+I am able to edit my recipe list and all ingredients.
+```
+
+```
+As a user,
+So I can change my mind and do not display recipes I don't want to,
+I am able to delete selected recipe.
+```
+
+## Further Development
+
+Ideas to improve our application
+
+- Add feature for user to be able to login.
+- Add feature for a user to save recipes to DB.
+- Add feature for a user to like/promote selected recipes.
+- Add feature for a user to post/share favorites recipes to other platforms.
 
 ## Available Scripts
 
@@ -36,33 +99,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
